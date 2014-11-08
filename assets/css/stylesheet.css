@@ -40,7 +40,7 @@
 .favoriteContainer ul {
     display: inline-block;
     list-style-type: none;
-    border-top: 1px solid #000;
+    border: 1px solid #000;
     padding-left: 0;
     margin-right: 1%;
     margin-left: 4%;
@@ -122,6 +122,7 @@ description {
     .favoriteContainer ul{
         width: 100%;
         margin: 0;
+        border-top: 1px solid #000;
     }
     .favorite {
         padding-top: 5%;
