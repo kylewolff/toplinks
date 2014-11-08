@@ -118,6 +118,9 @@ description {
 }
 /*iPhone 6 Portrait*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+    h2 {
+        font-size: 36;
+    }
      .favoriteContainer {
         width: 95%;
         margin: 2%;
@@ -128,5 +131,8 @@ description {
     }
     .header {
         font-size: 30px;
+    }
+    .content {
+        font-size: 28px;
     }
 }
