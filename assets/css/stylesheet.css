@@ -106,13 +106,13 @@ description {
     display: inline;
     margin-left: 10%;
 }
-<!---iPhone 6 support----> @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-}
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    .favoritesContainer {
-        width: 90%;
+@media (min-width: 100px) and (max-width: 600px) {
+    .favoriteContainer {
+        width: 95%;
+        margin: 2%;
     }
-    .favorite {
+    .favoriteContainer ul{
         width: 100%;
+        margin: 0;
     }
 }
