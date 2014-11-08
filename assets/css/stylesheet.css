@@ -126,11 +126,18 @@ description {
         width: 100%;
         margin: 0;
     }
+    .favorite {
+        padding-top: 5%;
+    }
+    .favorite:first-child {
+         padding-top: 0; 
+    }
     .title {
         font-size: 64px;
     }
     .header {
         font-size: 46px;
+        border-top: 1px solid #000;
     }
     .content {
         font-size: 40px;
