@@ -127,12 +127,12 @@ description {
         margin: 0;
     }
     .title {
-        font-size: 44px;
+        font-size: 64px;
     }
     .header {
-        font-size: 30px;
+        font-size: 46px;
     }
     .content {
-        font-size: 28px;
+        font-size: 40px;
     }
 }
