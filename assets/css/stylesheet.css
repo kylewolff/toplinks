@@ -15,6 +15,12 @@
  .home {
     list-style-type: none;
     padding-left: 0;
+    border: 1px solid #000;
+    width: 20%;
+}
+.home li{
+	display: inline;
+	font-size: 18px;
 }
 .menu {
     list-style-type: none;
