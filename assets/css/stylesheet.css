@@ -2,6 +2,10 @@
     width: 100%;
     margin: 0 auto;
 }
+.container{
+	width: 75%;
+	margin-left: 10%;
+}
 #clear {
     clear: both;
 }
@@ -15,7 +19,7 @@
  .home {
     list-style-type: none;
     padding-left: 0;
-    margin-left: 10%;
+
 }
 .home li{
 	display: inline;
@@ -23,13 +27,9 @@
 }
 .menu {
     list-style-type: none;
-    padding-left: 0;
-    width: 20%;
-    margin-right: 7%;
 }
 .menu li {
     display: inline;
-    margin-left: 10%;
 }
 #topContainer {
     border-bottom: 1px solid #000;
@@ -40,8 +40,8 @@
 }
 .favoriteContainer {
     margin-top: 0;
-    margin-left: 8%;
-    width: 80%;
+    margin-left: 0;
+    width: 100%;
 }
 .favoriteContainer ul {
     display: inline-block;
@@ -112,6 +112,10 @@ description {
     margin-left: 10%;
 }
 @media (min-width: 0px) and (max-width: 600px) {
+	.container {
+		width: 100%;
+		margin: 0;
+	}
     .favoriteContainer {
         width: 95%;
         margin: 2%;
@@ -123,6 +127,10 @@ description {
 }
 /*iPhone 6 Portrait*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+	.container {
+		width: 100%;
+		margin: 0;
+	}
      .favoriteContainer {
         width: 100%;
         margin: 0%;
