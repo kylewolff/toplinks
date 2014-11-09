@@ -116,6 +116,19 @@ description {
 		width: 100%;
 		margin: 0;
 	}
+	.home{
+		text-align: center;
+		width: 100%;
+	}
+	.home li{
+		font-size: 36px;
+	}
+	.title{
+		display: none;
+	}
+	.mobile {
+		display: none;
+	}
     .favoriteContainer {
         width: 95%;
         margin: 2%;
@@ -130,6 +143,16 @@ description {
 	.container {
 		width: 100%;
 		margin: 0;
+	}
+	.home{
+		text-align: center;
+		width: 100%;
+	}
+	.home li{
+		font-size: 36px;
+	}
+	.mobile {
+		display: none;
 	}
      .favoriteContainer {
         width: 100%;
@@ -148,7 +171,7 @@ description {
          padding-top: 0; 
     }
     .title {
-        font-size: 64px;
+        display: none;
     }
     .header {
         font-size: 46px;
