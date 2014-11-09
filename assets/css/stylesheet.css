@@ -94,7 +94,9 @@ description {
 }
 #footer {
     width: 100%;
-    border: 1px solid #000;
+    border-top: 1px solid #000;
+    margin-left: 0;
+    padding-left: 0;
 }
 .copyright{
     list-style-type: none;
