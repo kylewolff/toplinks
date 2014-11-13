@@ -3,7 +3,7 @@ body{
 }
 #wrapper {
     width: 100%;
-    margin: 0 0;
+    overflow: hidden;
 }
 #container {
     width: 80%;
@@ -50,6 +50,7 @@ body{
 }
 #topContainer {
     border: 1px solid #ced1d5;
+    width: 100%;
 }
 #mainContent {
     background: #ecf0ef;
