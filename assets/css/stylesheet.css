@@ -162,7 +162,7 @@ description {
 }
 @media (min-width: 0px) and (max-width: 600px) {
     #container {
-        width: 100%;
+        width: 97%;
     }
     .mobileNoDisplay {
 	display: none;
@@ -212,7 +212,7 @@ description {
     }
     .favoriteContainer ul{
         width: 100%;
-        margin: 0;
+        margin-top: .5%;
         padding-top: 0;
         border: none;
     }
