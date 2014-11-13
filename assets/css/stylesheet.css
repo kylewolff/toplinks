@@ -164,8 +164,8 @@ description {
     #container {
         width: 100%;
     }
-    #mobile {
-		display: none;
+    .mobile {
+	display: none;
 	}
     .favoriteContainer ul {
         width: 100%;
@@ -189,7 +189,7 @@ description {
 		width: 100%;
 		margin: 0;
 	}
-	#mobile {
+	.mobile {
 		display: none;
 	}
 	.home{
