@@ -164,6 +164,9 @@ description {
     #container {
         width: 100%;
     }
+    #mobile {
+		display: none;
+	}
     .favoriteContainer ul {
         width: 100%;
         margin-top: .5%;
@@ -182,9 +185,12 @@ description {
 }
 /*iPhone 6 Portrait*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
-	.container {
+	#container {
 		width: 100%;
 		margin: 0;
+	}
+	#mobile {
+		display: none;
 	}
 	.home{
 		text-align: center;
@@ -192,9 +198,6 @@ description {
 	}
 	.home li{
 		font-size: 36px;
-	}
-	.mobile {
-		display: none;
 	}
      .favoriteContainer {
         width: 100%;
