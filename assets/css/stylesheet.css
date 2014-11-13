@@ -188,7 +188,10 @@ description {
     }
     .header {
         border-top: 1px solid #ced1d5;
-        font-size: 46px;
+        font-size: 30px;
+    }
+    .content {
+        font-size: 32px;
     }
 }
 /*iPhone 6 Portrait*/
