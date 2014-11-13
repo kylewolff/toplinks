@@ -167,6 +167,13 @@ description {
     .mobileNoDisplay {
 	display: none;
 	}
+	.home{
+		text-align: center;
+		width: 100%;
+	}
+	.home li{
+		font-size: 36px;
+	}
     .favoriteContainer ul {
         width: 100%;
         margin-top: .5%;
@@ -181,13 +188,13 @@ description {
     }
     .header {
         border-top: 1px solid #ced1d5;
+        font-size: 46px;
     }
 }
 /*iPhone 6 Portrait*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
 	#container {
 		width: 100%;
-		margin: 0;
 	}
 	.mobileNoDisplay {
 		display: none;
@@ -206,8 +213,8 @@ description {
     .favoriteContainer ul{
         width: 100%;
         margin: 0;
+        padding-top: 0;
         border: none;
-        border-top: 1px solid #000;
     }
     .favorite {
         padding-top: 5%;
@@ -215,12 +222,9 @@ description {
     .favorite:first-child {
          padding-top: 0; 
     }
-    .title {
-        display: none;
-    }
     .header {
+        border-top: 1px solid #ced1d5;
         font-size: 46px;
-        border-top: 1px solid #000;
     }
     .content {
         font-size: 40px;
