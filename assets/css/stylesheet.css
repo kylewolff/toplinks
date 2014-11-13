@@ -164,7 +164,7 @@ description {
     #container {
         width: 100%;
     }
-    .mobile {
+    .mobileNoDisplay {
 	display: none;
 	}
     .favoriteContainer ul {
