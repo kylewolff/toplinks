@@ -22,8 +22,9 @@
     font-weight: 700;
     font-size: 17px;
     border: 1px solid #000;
-    display: inline;
-    width: 40%;
+}
+.home li{
+	display: inline;
 }
 .home a {
     text-decoration: none;
