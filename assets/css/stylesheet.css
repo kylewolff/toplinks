@@ -1,10 +1,9 @@
 #wrapper {
     width: 100%;
-    margin: 0 auto;
 }
-.container{
-	width: 75%;
-	margin-left: 10%;
+#container {
+    width: 80%;
+    margin: 0 auto;
 }
 #clear {
     clear: both;
@@ -19,66 +18,95 @@
  .home {
     list-style-type: none;
     padding-left: 0;
-
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
 }
-.home li{
-	display: inline;
-	font-size: 18px;
+.home a {
+    text-decoration: none;
+    color: #5c6868;
 }
 .menu {
     list-style-type: none;
+    padding-left: 0;
+    width: 40%;
+    font-size: 17px;
+    text-align: right;
 }
 .menu li {
     display: inline;
+    margin-left: 10%;
+    color: #5c6868;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    margin-right: 0;
 }
 #topContainer {
-    border-bottom: 1px solid #000;
+    border: 1px solid #ced1d5;
+}
+#mainContent {
+    background: #ecf0ef;
+    margin: 0;
+    padding-top: 2%;
 }
 .title {
     text-align: center;
-    text-decoration: underline;
-}
-.favoriteContainer {
     margin-top: 0;
-    margin-left: 0;
-    width: 100%;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    color: #5c6868;
 }
 .favoriteContainer ul {
     display: inline-block;
     list-style-type: none;
-    border: 1px solid #000;
+    border: 1px solid #ced1d5;
     padding-left: 0;
     margin-right: 1%;
-    margin-left: 0%;
     margin-top: 0;
     width: 31%;
     vertical-align: top;
+    background: #fff;
 }
 .favoriteContainer li {
     padding-left: 0;
     text-align: center;
 }
 .header {
-    font-size: 18px;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
-    border-bottom: 1px solid #000;
-    background: #dedede;
+    border: 1px solid #ced1d5;
+    background: #6a9acd;
     padding: 5% 0;
-  
 }
 .content {
     text-align: center;
-    margin-top: 2%;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ced1d5;
     padding: 5% 0;
     width: 100%;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
 }
-.content:last-child {
+.favorite a {
+    text-decoration: none;
+    color: #5c6868;
+}
+.favorite a:hover {
+    text-decoration: underline;
+}
+.content a:last-child {
     border-bottom: none;
+}
+.content:hover {
+    background: #ced1d5;
 }
 .content a {
     text-decoration: none;
-    color: #009;
+    color: #5c6868;
 }
 .content a:hover {
     text-decoration: underline;
@@ -96,46 +124,52 @@ description {
 }
 #footer {
     width: 100%;
-    border-top: 1px solid #000;
+    border-top: 1px solid #ced1d5;
     margin-left: 0;
+}
+.copyright {
+    list-style-type: none;
+    color: #5c6868;
     padding-left: 0;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
 }
-.copyright{
+.foot {
     list-style-type: none;
 }
-.footNav{
-    list-style-type: none;
-    width: 30%;
+.foot li {
+    display: block;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 34px;
 }
-.footNav li {
-    display: inline;
-    margin-left: 10%;
+.foot a {
+    text-decoration: none;
+    color: #5c6868;
+}
+.foot a:hover {
+    text-decoration: underline;
 }
 @media (min-width: 0px) and (max-width: 600px) {
-	.container {
-		width: 100%;
-		margin: 0;
-	}
-	.home{
-		text-align: center;
-		width: 100%;
-	}
-	.home li{
-		font-size: 36px;
-	}
-	.title{
-		display: none;
-	}
-	.mobile {
-		display: none;
-	}
-    .favoriteContainer {
-        width: 95%;
-        margin: 2%;
-    }
-    .favoriteContainer ul{
+    #container {
         width: 100%;
-        margin: 0;
+    }
+    .favoriteContainer ul {
+        width: 100%;
+        margin-top: .5%;
+        border: none;
+        padding-top: 0;
+    }
+    .favorite {
+        padding-top: 5%;
+    }
+    .favorite:first-child {
+        padding-top: 0;
+    }
+    .header {
+        border-top: 1px solid #ced1d5;
     }
 }
 /*iPhone 6 Portrait*/
