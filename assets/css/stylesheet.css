@@ -24,7 +24,7 @@ body{
     padding-left: 0;
     font-family:'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 22px;
 }
 .home li{
 	display: inline;
@@ -37,7 +37,7 @@ body{
     list-style-type: none;
     padding-left: 0;
     width: 40%;
-    font-size: 17px;
+    font-size: 20px;
     text-align: right;
     padding-right: 3%;
 }
@@ -64,6 +64,7 @@ body{
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     color: #5c6868;
+    font-size: 22px;
 }
 .favoriteContainer ul {
     display: inline-block;
