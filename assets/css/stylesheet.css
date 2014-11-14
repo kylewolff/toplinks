@@ -200,6 +200,7 @@ description {
 @media (min-width: 0px) and (max-width: 600px) {
     #container {
         width: 97%;
+        margin: 0 auto;
     }
     .mobileNoDisplay {
 	display: none;
@@ -235,6 +236,7 @@ description {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
 	#container {
 		width: 97%;
+		margin: 0 auto;
 	}
 	.mobileNoDisplay {
 		display: none;
