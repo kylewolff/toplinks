@@ -8,6 +8,7 @@ body{
 #container {
     width: 70%;
     margin: 0 auto;
+    margin-left: 12%;
 }
 #clear {
     clear: both;
