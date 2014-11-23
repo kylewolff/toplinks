@@ -66,6 +66,14 @@ body {
     border: 1px solid #ced1d5;
     width: 100%;
 }
+#mainContent, #aboutContent {
+    background: #ecf0ef;
+    margin: 0;
+    padding-top: 2%;
+}
+#aboutContent {
+    padding: 2% 0 40% 0;
+}
 .modalDialog {
     position: fixed;
     font-family:'Roboto', sans-serif;
@@ -153,7 +161,7 @@ body {
     font-weight: 700;
     color: #5c6868;
 }
-.favoriteContainer ul {
+.favoriteContainer ul, .aboutContainer ul {
     display: inline-block;
     list-style-type: none;
     border: 1px solid #ced1d5;
@@ -216,7 +224,7 @@ body {
         opacity: 1;
     }
 }
-.favoriteContainer li {
+.favoriteContainer li, .aboutContainer li {
     padding-left: 0;
     text-align: center;
 }
