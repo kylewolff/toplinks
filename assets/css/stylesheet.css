@@ -58,6 +58,10 @@ body {
 .menu a:hover {
     text-decoration: underline;
 }
+#logo {
+	color: #000;
+	font-size: 21px;
+}
 #topContainer {
     border: 1px solid #ced1d5;
     width: 100%;
