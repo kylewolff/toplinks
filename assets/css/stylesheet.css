@@ -279,6 +279,30 @@ description {
 .favorite li:hover description {
     visibility: visible;
 }
+/*-------------ABOUT CONTENT-------------*/
+.aboutContainer {
+    margin: 0 auto;
+}
+.aboutContainer ul{
+    width: 95%;   
+    padding: 5%;
+    padding-top: 2%;
+    border-top: none;
+ }
+.aboutContainer li{
+    text-align: left;
+    line-height: 25px;
+}
+.aboutHeader {
+    color: #fff;
+    border: 1px solid #ced1d5;
+    padding: 0;
+    background: #6a9acd;
+    width: 95%;
+    padding: 1% 5%;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
 #footer {
     width: 100%;
     border-top: 1px solid #ced1d5;
