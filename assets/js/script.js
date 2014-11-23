@@ -5,7 +5,7 @@ $(function aboutLoad(){
     });
       var ajax_load = "<img src='http://automobiles.honda.com/images/current-offers/small-loading.gif' alt='loading...' />";
     // load() functions
-    var loadUrl = "http://fiddle.jshell.net/kylewolff7/hor54tj8/show/";
+    var loadUrl = "pages/about.html";
     $("#about").click(function(){
         $("#mainContent").html(ajax_load).load(loadUrl);
     });
