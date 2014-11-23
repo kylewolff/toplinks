@@ -20,7 +20,7 @@ $(function linkLoad(){
     });
       var ajax_load1 = "<img src='http://automobiles.honda.com/images/current-offers/small-loading.gif' alt='loading...' />";
     // load() functions
-    var loadUrl1 = "http://fiddle.jshell.net/kylewolff7/ovger45n/show/";
+    var loadUrl1 = "pages/mainContent.html";
     $("#logo").click(function(){
         $("#mainContent").html(ajax_load1).load(loadUrl1);
     });
