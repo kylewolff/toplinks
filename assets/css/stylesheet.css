@@ -49,6 +49,15 @@ body {
     font-weight: 500;
     margin-right: 0;
 }
+.menu a{
+    text-decoration: none;
+    color: #5c6868;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
 #topContainer {
     border: 1px solid #ced1d5;
     width: 100%;
