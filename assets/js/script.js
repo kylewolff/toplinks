@@ -47,15 +47,19 @@ $(function linkLoad(){
 });
 
 //Modal AJAX - Message
-$.ajax({
-  dataType: 'jsonp',
-  url: "http://getsimpleform.com/messages/ajax?form_api_token=53909f2953627d4a7f2ee999608aa018",
-  data: {
-    name: "John",
-    message: "Boston",
-  }
-}).done(function() {
-  //callback which can be used to show a thank you message
-  //and reset the form
-  alert("Thank you, for contacting us");
+$(function contactSubmit(){
+	$(".submit").click(function()){
+	$.ajax({
+	  dataType: 'jsonp',
+	  url: "http://getsimpleform.com/messages/ajax?form_api_token=53909f2953627d4a7f2ee999608aa018",
+	  data: {
+	    name: "John",
+	    message: "Boston",
+	  }
+	}).done(function() {
+	  //callback which can be used to show a thank you message
+	  //and reset the form
+	  alert("Thank you, for contacting us");
+	});
+	}
 });
