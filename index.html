@@ -28,12 +28,47 @@
         <div id="menuNav">
             <ul class="menu right mobileNoDisplay">
                 <li><a href="#/about" id="about">About</a></li>
-                <!--<li>Contact</li>--->
+				<li><a href="#openModal">Contact</a></li>
             </ul>
         </div>
     
         <!---<div id="search"></div>--->
         <div id="clear"></div>
+        </div>
+    </div>
+    <div id="openModal" class="modalDialog">
+        <div>	<a href="#close" title="Close" class="close">X</a>
+
+            	<h2>Feedback</h2>
+
+            <form action="http://getsimpleform.com/messages?form_api_token=53909f2953627d4a7f2ee999608aa018" method="post">
+		  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+		  		<input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+		  <!-- all your input fields here.... -->
+                <ul class="modalDescription">
+                    <li>Email:
+                        <ul class="modalInput">
+                            <li>
+                                <input name="contact" placeholder="Your Email" class="contactEmail" />
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Subject:
+                        <ul class="modalInput">
+                            <li>
+                                <input name="subject" placeholder="Subject" class="contactSubject" />
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Message:
+                        <ul class="modalInput">
+                            <li>
+                                <textarea class="contactMessage"></textarea>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </form>
         </div>
     </div>
     <div id="mainContent">
