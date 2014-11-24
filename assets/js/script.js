@@ -48,7 +48,7 @@ $(function linkLoad(){
 
 //Modal AJAX - Message
 $(function contactSubmit(){
-	$(".submit").click(function()){
+	$(".submit").click(function(){
 	$.ajax({
 	  dataType: 'jsonp',
 	  url: "http://getsimpleform.com/messages/ajax?form_api_token=53909f2953627d4a7f2ee999608aa018",
